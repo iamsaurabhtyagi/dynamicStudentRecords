@@ -20,7 +20,5 @@
 		        <property name="semester" column="Semester" />
 		        <property name="localAddress" column="Local_Address" />
 		        <property name="permanentAddress" column="Permanent_Address" />
-		        
-		        
             </class>
         </hibernate-mapping>

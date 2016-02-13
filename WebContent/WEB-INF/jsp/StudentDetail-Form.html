@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="../css/main.css" type="text/css" rel="stylesheet">
+<title>Student Detail Form</title>
+</head>
+<body bgcolor="#E8E8E8">
+
+<div id="main" align="center">
+<h1>Student Detail</h1>
+<form action="http://localhost:8080/CollectionMapping/form" method="get">
+
+<!-- ************* PERSONAL DETAIL *********************-->
+
+<div id="logo" class="round">
+
+	  <h3><i>Personal_Detail</i></h3>
+      <table align="center">
+		<tr><td>Student Name: </td><td>     <input type="text" name="studentName"  ></td></tr>
+	    <tr><td>Father's Name:</td><td>     <input type="text" name="fatherName" > </td></tr>
+		<tr><td>  Mother's Name: </td><td>    <input type="text" name="motherName" > </td></tr>
+		<tr><td>DOB:      </td><td>         <select name="dob"><option value="1994">1994</option>
+		<option value="1995">1994</option>
+		<option value="1996">1994</option>
+		<option value="1996">1994</option>
+		<option value="1997">1994</option></select></td></tr>
+		<tr><td>Email_ID</td><td><input type="text" name="email" ></td></tr>
+		<tr><td>Mobile_no</td><td><input type="text" name="mobile"></td></tr>
+		<tr><td>Gender</td><td><input type="radio" name="gender">Male<input type="radio" name="gender">Female
+	    <tr><td>Marital Staus</td><td><select name="status"><option value="Single">Single</option>
+	     <option value="Married">Married</option>
+		</select></td></tr>
+	   </table>
+   </div>
+	  <!-- **************** ACADEMIC DETAIL ***************** -->  
+	  
+  <div id="logo" class="round">
+	    <h3><i>Academic_Detail</i></h3>
+	    
+	    <table align="center">
+	    <tr><td>Class</td><td><input type="text" name="class"></td></tr>
+	    <tr><td>Board</td><td><input type="text" name="board"></td></tr>
+	    <tr><td>Percentage</td><td><input type="text" name="per"></td></tr>
+	    <tr><td>Passing Of Year</td><td><input type="text" name="poy"></td></tr>
+	    <tr><td>Course </td><td>  
+	    <select name="course" > 
+		<option value="MBA">MBA</option>
+		<option value="MCA">MCA</option>
+		<option value="B.TECh">B.TECH</option>
+		<option value="BCA">BCA</option> 
+		</select></td></tr>
+		
+		<tr><td>Branch:</td>
+		<td> <select name="course" >     
+	    <option value="CSE">MBA</option>
+		<option value="ECE">MCA</option>
+		<option value="CE">B.TECH</option>
+		<option value="IT">BCA</option> </select></td></tr>
+	
+	</table>
+   </div>
+   
+		<!-- ************* ADDRESS DETAIL **************** -->
+		
+	<div id="logo" class="round">
+		
+		<h3><i>Address_Detail</i></h3>
+		
+		<table align="center">
+		
+		<tr><td>Address:</td><td><input type="text" name="localAddress" style="width: 150px;height:50px;"/> </td></tr>
+		<tr><td>City: </td><td><input type="text" name="city"></td></tr>
+		<tr><td>Pin Code:</td><td><input type="text" name="pin"></td></tr>
+		<tr><td>State:</td><td><input type="text" name="state"></td></tr>
+		<tr><td>Country:</td><td><input type="text" name="state"></td></tr>
+
+	 </table>
+   </div>
+   <h6 align="center"><input type="submit" name="studentDetail" value="SUBMIT" align="middle"></h6>
+ </form>
+	</div>
+
+</body>
+</html>

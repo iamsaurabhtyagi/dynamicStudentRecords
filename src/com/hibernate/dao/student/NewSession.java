@@ -12,9 +12,11 @@ public class NewSession {
 		cfg.configure("hibernate.cfg.xml");
 		System.out.println("Configured: "+cfg);
 		factory=cfg.buildSessionFactory();
+		System.out.println("Hibernate's SessionFactory Created");
 	}
 	
 	public static Session getSession() {
+		System.out.println("New Session Created");
 		return factory.openSession();
 	}
 

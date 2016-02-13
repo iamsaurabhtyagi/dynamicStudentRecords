@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:14px; line-height:1.4em;
+
+}
+#main{
+	max-width:95%;
+
+	
+}
+#logo{
+	text-align:inherit;
+	font-family:Arial Rounded MT Bold;
+	float:none;
+	padding:10px;
+	border:0.5px solid #000;
+	margin: 3%;
+    font-size: large;
+ background-color: #FFFFFF;
+}
+.round{color:inherit; 
+border-radius:0 8px 8px 0;
+padding:15px;
+max-width:85%;
+margin-bottom:15px; text-align:center;
+	
+	
+}
+
+table, th, td{ border-collapse:collapse; vertical-align:top; box-sizing:border-box;}
+table, th{table-layout:auto;}
+table{width:100%; margin-bottom:15px;}
+th, td{padding:8px 12px;}
+td{border-width:0 2px;}
+
+
+h1{text-align: center; 
+
+}
+h3{width:135px;
+    margin-top:-20px;
+    margin-left:40px;
+    background:#E8E8E8 ;}
+    
+   

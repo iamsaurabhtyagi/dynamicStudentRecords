@@ -14,11 +14,26 @@
                 <property name="fatherName" column="Father_Name"/>
 		        <property name="motherName" column="Mother_Name" />
 		        <property name="dob" column="DoB" />
-		        <property name="department" column="Department" />
+		        <property name="gender" column="Gender" />
+		        <property name="maritalStatus" column="Marital_Status" />
+		        
+		        <property name="course" column="Course" />
 		        <property name="branch" column="Branch" />
 		        <property name="year" column="Year" />
 		        <property name="semester" column="Semester" />
+		        
+		        <property name="emailID" column="Email_id" />
+		        <property name="mobile" column="Mobile" />
+		        
 		        <property name="localAddress" column="Local_Address" />
+		        <property name="localCity" column="L_City" />
+		        <property name="localState" column="L_State" />
+		        <property name="localPinCode" column="L_Pin_Code" />
+		        
 		        <property name="permanentAddress" column="Permanent_Address" />
+		        <property name="permanentCity" column="P_City" />
+		        <property name="permanentState" column="P_State" />
+		        <property name="permanentPinCode" column="P_Pin_Code" />
+		        
             </class>
         </hibernate-mapping>
